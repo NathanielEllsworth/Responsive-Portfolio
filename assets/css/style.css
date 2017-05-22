@@ -273,12 +273,12 @@ input[type=submit] {
 
   .auth-image{
 
-    width: 100%;
+    width: 47%;
   }
 
 
   p {
-    float:left;
+  
   }
 
   
@@ -308,6 +308,7 @@ input[type=submit] {
   .auth-image{
 
     width: 47%;
+    
   }
 
   .sidebar {
@@ -321,11 +322,13 @@ input[type=submit] {
   .connect {
     
     min-width: 100%;
-    text-align: center;
+    
   }
 
-  
+  p {
 
+
+  }
 
 }
 
