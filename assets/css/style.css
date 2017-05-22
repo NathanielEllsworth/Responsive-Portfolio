@@ -249,11 +249,26 @@ input[type=submit] {
 
 @media screen and (max-width: 980px) {
 
+  #masthead{
+    padding: 0 5%;
+  }
+
+
   
   .container {
 
     width: 100%
 
+  }
+  .sidebar{
+
+    width: 30%;
+    margin-right: 3%;
+  }
+
+  .main-section {
+    margin: 0 0 3% 5%;
+    width: 60%;
   }
 
   .auth-image{
@@ -279,6 +294,12 @@ input[type=submit] {
 
   }
 
+  .main-section {
+
+    min-width: 92%;
+    margin:0 3% 3% 3%;
+  }
+
   #logo {
 
     margin-left: 3%;
@@ -291,7 +312,9 @@ input[type=submit] {
 
   .sidebar {
 
-    min-width: 100%;
+    min-width: 92%;
+    margin:0 3% 3% 3%;
+    float:left;
 
   }
 
